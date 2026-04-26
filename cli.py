@@ -38,7 +38,7 @@ def extreme_compress(input_path, output_path, target_bitrate="1500k", fps=None, 
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python compress.py input.mp4 output.mp4")
+        print("Usage: python cli.py input.mp4 output.mp4")
     else:
         extreme_compress(
             sys.argv[1],
